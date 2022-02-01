@@ -1,17 +1,7 @@
 package com.code.tree;
 
 
-class NodeBinaryTreeNode{
-	int key;
-	NodeBinaryTreeNode leftChild;
-	NodeBinaryTreeNode rightChild;
-	
-	public NodeBinaryTreeNode(int key) {
-		this.key = key;
-		this.leftChild = null;
-		this.rightChild = null;
-	}
-}
+
 
 class BinarySearchTree{
 	NodeBinaryTreeNode mRoot;
@@ -155,6 +145,11 @@ class BinarySearchTree{
 		// TODO Auto-generated method stub
 		postOrderTraverse(mRoot);
 	}
+	
+	
+	
+	
+	
 	
 }
 
